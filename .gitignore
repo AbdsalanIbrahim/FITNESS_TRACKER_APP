@@ -9,8 +9,8 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-*
+#/db/*.sqlite3
+#/db/*.sqlite3-*
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -59,8 +59,15 @@ jspm_packages
 .pytest_cache
 __pycache__
 
-# database
-*.db
-instance
+# Ignore database files (except `fitness_tracker.db` file)
+# *.db
+
+# Keep track of the `fitness_tracker.db` file
+!instance/fitness_tracker.db
+
+# Ignore instance directory but not the `fitness_tracker.db` file
+/instance/*
+!/instance/fitness_tracker.db
+
 .vscode
 package-lock.json
