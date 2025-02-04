@@ -50,7 +50,7 @@ Deployment
 
 The Fitness Tracker App is deployed using Render for the backend. The latest deployment can be accessed [here](https://dashboard.render.com/web/srv-cug6fshopnds73blgeag/deploys/dep-cug6g19opnds73blggig?r=2025-02-03%4006%3A52%3A57%7E2025-02-03%4006%3A58%3A26).
 
-To deploy the frontend, you can use Netlify or Vercel, ensuring the API endpoint is correctly set in the React app (proxy in package.json or .env variables).
+Frontend: https://github.com/AbdsalanIbrahim/netlify-feature-tour
 
 Contributing
 
